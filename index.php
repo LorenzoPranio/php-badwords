@@ -21,7 +21,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Inserisci qui la parola da censurare</label>
-                        <input type="word" class="form-control" name="word">
+                        <input type="text" class="form-control" name="word">
                     </div>
                     <button type="submit" class="btn btn-primary bg-success">Invio</button>
                 </form>

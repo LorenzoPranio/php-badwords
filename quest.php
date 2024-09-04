@@ -1,6 +1,8 @@
 <?php
     $paragraph= $_GET["text"];
-    $censured= $_GET["word"];
+    $word= $_GET["word"];
+
+    $censured= str_replace($word, "***", $paragraph)
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +13,12 @@
     <title>PHP Quest</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><?php echo $censured ?></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
