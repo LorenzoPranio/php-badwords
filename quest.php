@@ -16,7 +16,14 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <h4>Questo è ciò che hai scritto:</h4>
+                <p><?php echo $paragraph ?></p>
+                <h4>Questa è la sua lunghezza:</h4>
+                <p><?php echo strlen($paragraph) ?></p>
+                <h4>Questo è il testo modificato:</h4>
                 <p><?php echo $censured ?></p>
+                <h4>Questa è la sua lunghezza:</h4>
+                <p><?php echo strlen($censured) ?></p>
             </div>
         </div>
     </div>
