@@ -13,3 +13,10 @@ Ricordatevi di fare sempre il file README.md.
 
 ||SOLUZIONE||
 
+1.Creo un file con all'interno il form per permettere all'utente di inserire i dati.
+
+2.Creo un secondo file in cui uso GET per prendere i dati inseriti dall'utente.
+
+3.Una volta ottenuti i dati dall'utente, creo le modifiche dello scritto.
+
+4.Passo le modifiche delle info all'utente.
